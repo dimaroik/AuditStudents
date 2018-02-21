@@ -1,0 +1,34 @@
+﻿@model Honeycombsoft.WEB.Models.RegisterModel
+
+
+
+<div id="register" class="col-md-4">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h1>Hi @Html.DisplayFor(model => model.Name)</h1>
+        </div>
+
+        <div class="panel-body">
+            @using (Html.BeginForm("FacebookCallBack", "Account"))
+            {
+                @Html.HiddenFor(model=>model.Email)
+                @Html.HiddenFor(model=>model.Name)
+                @Html.HiddenFor(model=>model.LastName)
+                @Html.AntiForgeryToken()
+                <div>
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Continue as @Html.DisplayFor(model=> model.Name)" class="btn btn-default" />
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="panel-footer">
+            <div>
+                @Html.ActionLink("Login with facebook", "ExternalRegister", "Account", new { provider = "facebook" }, null)
+            </div>
+        </div>
+    </div>
+</div>
+

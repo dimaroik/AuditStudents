@@ -1,0 +1,16 @@
+C:\Users\Dima\Desktop\Honeycombsoft\Honeycombsoft.BLL\bin\Debug\Honeycombsoft.BLL.dll.config
+C:\Users\Dima\Desktop\Honeycombsoft\Honeycombsoft.BLL\bin\Debug\Honeycombsoft.BLL.dll
+C:\Users\Dima\Desktop\Honeycombsoft\Honeycombsoft.BLL\bin\Debug\Honeycombsoft.BLL.pdb
+C:\Users\Dima\Desktop\Honeycombsoft\Honeycombsoft.BLL\bin\Debug\EntityFramework.dll
+C:\Users\Dima\Desktop\Honeycombsoft\Honeycombsoft.BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dima\Desktop\Honeycombsoft\Honeycombsoft.BLL\bin\Debug\Honeycombsoft.DAL.dll
+C:\Users\Dima\Desktop\Honeycombsoft\Honeycombsoft.BLL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Dima\Desktop\Honeycombsoft\Honeycombsoft.BLL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Dima\Desktop\Honeycombsoft\Honeycombsoft.BLL\bin\Debug\Honeycombsoft.DAL.pdb
+C:\Users\Dima\Desktop\Honeycombsoft\Honeycombsoft.BLL\bin\Debug\EntityFramework.xml
+C:\Users\Dima\Desktop\Honeycombsoft\Honeycombsoft.BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dima\Desktop\Honeycombsoft\Honeycombsoft.BLL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Dima\Desktop\Honeycombsoft\Honeycombsoft.BLL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Dima\Desktop\Honeycombsoft\Honeycombsoft.BLL\obj\Debug\Honeycombsoft.BLL.csprojResolveAssemblyReference.cache
+C:\Users\Dima\Desktop\Honeycombsoft\Honeycombsoft.BLL\obj\Debug\Honeycombsoft.BLL.dll
+C:\Users\Dima\Desktop\Honeycombsoft\Honeycombsoft.BLL\obj\Debug\Honeycombsoft.BLL.pdb

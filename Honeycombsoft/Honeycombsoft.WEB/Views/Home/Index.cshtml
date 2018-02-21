@@ -1,0 +1,97 @@
+﻿@model Honeycombsoft.BLL.DTO.UserDTO
+
+
+
+
+<div id="context">
+   
+
+    <div class="col-md-4">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h1>Hi, @Html.DisplayFor(model => model.Name)</h1>
+            </div>
+
+            <div class="panel-body">
+
+                <h4>Student</h4>
+                <hr />
+                <dl class="dl-horizontal">
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Email)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.Email)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Name)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.Name)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.LastName)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.LastName)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Age)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.Age)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.RegisteredDate)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.RegisteredDate)
+                    </dd>
+                    </dl>
+                    @Html.ActionLink("Logout", "Logout", "Account")
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                @if (Model.StudyDate.ToString() == "01.01.0001 0:00:00")
+                {
+                    <h1>Set date study</h1>
+                }else{
+                    <h1>@Html.DisplayFor(model => model.StudyDate)</h1>
+                }
+            </div>
+
+            <div class="panel-body">
+
+                <h2>Select date study</h2>
+
+                @using (Html.BeginForm("SetDate", "Home", FormMethod.Get))
+                {
+                    @Html.DropDownList("SelectDate", new SelectList(ViewBag.dateSelectList, "Value", "Text"), new {  @class = "form-control" , style = "font-size:20px; margin: 8px;" })
+                        
+                    @Html.HiddenFor(model=>model.Id)
+                      
+                    <br />
+                    <input type="submit" value="Set date" class="btn btn-primary" />
+                }
+                    
+            </div>
+            <div class="panel-footer">
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,478 @@
+2018-01-30 16:31:50.0421 INFO Start installing Hangfire SQL objects...
+2018-01-30 16:31:56.0785 INFO Hangfire SQL objects installed.
+2018-01-30 16:31:56.1665 INFO Starting Hangfire Server
+2018-01-30 16:31:56.1665 INFO Using job storage: 'SQL Server: .\SQLEXPRESS@HoneyConnection'
+2018-01-30 16:31:56.1755 INFO Using the following options for SQL Server job storage:
+2018-01-30 16:31:56.1755 INFO     Queue poll interval: 00:00:15.
+2018-01-30 16:31:56.1755 INFO Using the following options for Hangfire Server:
+2018-01-30 16:31:56.1755 INFO     Worker count: 10
+2018-01-30 16:31:56.1755 INFO     Listening queues: 'default'
+2018-01-30 16:31:56.1755 INFO     Shutdown timeout: 00:00:15
+2018-01-30 16:31:56.1755 INFO     Schedule polling interval: 00:00:15
+2018-01-30 16:31:56.3185 DEBUG Background process 'BackgroundProcessingServer' started.
+2018-01-30 16:31:58.4586 DEBUG Background process 'ServerHeartbeat' started.
+2018-01-30 16:31:58.5416 DEBUG Background process 'ServerWatchdog' started.
+2018-01-30 16:31:58.5566 DEBUG Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-30 16:31:58.5566 DEBUG Removing outdated records from the 'AggregatedCounter' table...
+2018-01-30 16:31:58.5826 DEBUG Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-30 16:31:58.5826 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 16:31:58.6006 DEBUG Background process 'Worker #df365914' started.
+2018-01-30 16:31:58.6236 DEBUG Background process 'Worker #379ae9a8' started.
+2018-01-30 16:31:58.6726 DEBUG Background process 'Worker #3620aafd' started.
+2018-01-30 16:31:58.6726 DEBUG Background process 'Worker #81c0cf3a' started.
+2018-01-30 16:31:58.7006 DEBUG Background process 'Worker #ca6c4b14' started.
+2018-01-30 16:31:58.7276 DEBUG Background process 'Worker #91cf9b78' started.
+2018-01-30 16:31:58.7346 DEBUG Background process 'Worker #71ef5989' started.
+2018-01-30 16:31:58.7536 DEBUG Background process 'Worker #1c875032' started.
+2018-01-30 16:31:58.7886 DEBUG Background process 'Worker #a65e87c0' started.
+2018-01-30 16:31:58.9686 DEBUG Background process 'Worker #bce6a22a' started.
+2018-01-30 16:31:59.0086 DEBUG Background process 'DelayedJobScheduler' started.
+2018-01-30 16:31:59.0306 DEBUG Background process 'RecurringJobScheduler' started.
+2018-01-30 16:31:59.1506 INFO 1 servers were removed due to timeout
+2018-01-30 16:32:02.5928 DEBUG Removing outdated records from the 'Job' table...
+2018-01-30 16:32:04.3569 DEBUG Removing outdated records from the 'List' table...
+2018-01-30 16:32:04.5849 DEBUG Removing outdated records from the 'Set' table...
+2018-01-30 16:32:04.7270 DEBUG Removing outdated records from the 'Hash' table...
+2018-01-30 16:36:59.8718 INFO Start installing Hangfire SQL objects...
+2018-01-30 16:37:00.3489 INFO Hangfire SQL objects installed.
+2018-01-30 16:37:00.4339 INFO Starting Hangfire Server
+2018-01-30 16:37:00.4399 INFO Using job storage: 'SQL Server: .\SQLEXPRESS@HoneyConnection'
+2018-01-30 16:37:00.4399 INFO Using the following options for SQL Server job storage:
+2018-01-30 16:37:00.4399 INFO     Queue poll interval: 00:00:15.
+2018-01-30 16:37:00.4399 INFO Using the following options for Hangfire Server:
+2018-01-30 16:37:00.4399 INFO     Worker count: 10
+2018-01-30 16:37:00.4399 INFO     Listening queues: 'default'
+2018-01-30 16:37:00.4399 INFO     Shutdown timeout: 00:00:15
+2018-01-30 16:37:00.4399 INFO     Schedule polling interval: 00:00:15
+2018-01-30 16:37:00.5209 DEBUG Background process 'BackgroundProcessingServer' started.
+2018-01-30 16:37:01.2359 DEBUG Background process 'ServerHeartbeat' started.
+2018-01-30 16:37:01.3099 DEBUG Background process 'ServerWatchdog' started.
+2018-01-30 16:37:01.3739 DEBUG Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-30 16:37:01.3759 DEBUG Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-30 16:37:01.3759 DEBUG Removing outdated records from the 'AggregatedCounter' table...
+2018-01-30 16:37:01.3759 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 16:37:01.5099 DEBUG Background process 'Worker #b2650bb2' started.
+2018-01-30 16:37:01.6339 DEBUG Background process 'Worker #43231981' started.
+2018-01-30 16:37:01.8199 DEBUG Background process 'Worker #fdea3161' started.
+2018-01-30 16:37:01.8199 DEBUG Background process 'Worker #a44b8ecd' started.
+2018-01-30 16:37:01.8760 DEBUG Removing outdated records from the 'Job' table...
+2018-01-30 16:37:01.9700 DEBUG Background process 'Worker #a58ab1e2' started.
+2018-01-30 16:37:02.0670 DEBUG Background process 'Worker #5ed51472' started.
+2018-01-30 16:37:02.1310 DEBUG Background process 'Worker #ae56e5e4' started.
+2018-01-30 16:37:02.2010 DEBUG Background process 'Worker #0f492845' started.
+2018-01-30 16:37:02.2340 DEBUG Background process 'Worker #d4fbc1d4' started.
+2018-01-30 16:37:02.3050 DEBUG Background process 'Worker #3c302886' started.
+2018-01-30 16:37:02.4130 DEBUG Background process 'DelayedJobScheduler' started.
+2018-01-30 16:37:02.4130 DEBUG Background process 'RecurringJobScheduler' started.
+2018-01-30 16:37:02.4430 DEBUG Removing outdated records from the 'List' table...
+2018-01-30 16:37:02.5870 DEBUG Removing outdated records from the 'Set' table...
+2018-01-30 16:37:02.8400 DEBUG Removing outdated records from the 'Hash' table...
+2018-01-30 16:42:01.6691 INFO 1 servers were removed due to timeout
+2018-01-30 16:42:02.5311 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 16:47:02.8190 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 16:49:22.4870 INFO Start installing Hangfire SQL objects...
+2018-01-30 16:49:22.7770 INFO Hangfire SQL objects installed.
+2018-01-30 16:49:22.8330 INFO Starting Hangfire Server
+2018-01-30 16:49:22.8330 INFO Using job storage: 'SQL Server: .\SQLEXPRESS@HoneyConnection'
+2018-01-30 16:49:22.8330 INFO Using the following options for SQL Server job storage:
+2018-01-30 16:49:22.8330 INFO     Queue poll interval: 00:00:15.
+2018-01-30 16:49:22.8330 INFO Using the following options for Hangfire Server:
+2018-01-30 16:49:22.8330 INFO     Worker count: 10
+2018-01-30 16:49:22.8330 INFO     Listening queues: 'default'
+2018-01-30 16:49:22.8330 INFO     Shutdown timeout: 00:00:15
+2018-01-30 16:49:22.8330 INFO     Schedule polling interval: 00:00:15
+2018-01-30 16:49:23.1901 DEBUG Background process 'BackgroundProcessingServer' started.
+2018-01-30 16:49:23.8231 DEBUG Background process 'ServerHeartbeat' started.
+2018-01-30 16:49:23.8231 DEBUG Background process 'ServerWatchdog' started.
+2018-01-30 16:49:23.8741 DEBUG Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-30 16:49:23.8741 DEBUG Removing outdated records from the 'AggregatedCounter' table...
+2018-01-30 16:49:24.0171 DEBUG Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-30 16:49:24.0181 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 16:49:24.1221 DEBUG Background process 'Worker #226f1c65' started.
+2018-01-30 16:49:24.1601 DEBUG Background process 'Worker #93fbfe15' started.
+2018-01-30 16:49:24.2011 DEBUG Background process 'Worker #1544582c' started.
+2018-01-30 16:49:24.2011 DEBUG Background process 'Worker #6067f577' started.
+2018-01-30 16:49:24.2831 DEBUG Background process 'Worker #c8f00ced' started.
+2018-01-30 16:49:24.2831 DEBUG Background process 'Worker #56d2418e' started.
+2018-01-30 16:49:24.3871 DEBUG Background process 'Worker #4daa6c34' started.
+2018-01-30 16:49:24.4041 DEBUG Removing outdated records from the 'Job' table...
+2018-01-30 16:49:24.4311 DEBUG Background process 'Worker #06b4ad6b' started.
+2018-01-30 16:49:24.5461 DEBUG Background process 'Worker #08cfa734' started.
+2018-01-30 16:49:24.6171 DEBUG Background process 'Worker #e62a10de' started.
+2018-01-30 16:49:24.6952 DEBUG Background process 'DelayedJobScheduler' started.
+2018-01-30 16:49:24.7302 DEBUG Background process 'RecurringJobScheduler' started.
+2018-01-30 16:49:27.3743 DEBUG Removing outdated records from the 'List' table...
+2018-01-30 16:49:27.9833 DEBUG Removing outdated records from the 'Set' table...
+2018-01-30 16:49:28.4784 DEBUG Removing outdated records from the 'Hash' table...
+2018-01-30 17:15:06.2052 INFO Start installing Hangfire SQL objects...
+2018-01-30 17:15:08.4983 INFO Hangfire SQL objects installed.
+2018-01-30 17:15:08.5383 INFO Starting Hangfire Server
+2018-01-30 17:15:08.5383 INFO Using job storage: 'SQL Server: .\SQLEXPRESS@HoneyConnection'
+2018-01-30 17:15:08.5423 INFO Using the following options for SQL Server job storage:
+2018-01-30 17:15:08.5423 INFO     Queue poll interval: 00:00:15.
+2018-01-30 17:15:08.5423 INFO Using the following options for Hangfire Server:
+2018-01-30 17:15:08.5423 INFO     Worker count: 10
+2018-01-30 17:15:08.5423 INFO     Listening queues: 'default'
+2018-01-30 17:15:08.5423 INFO     Shutdown timeout: 00:00:15
+2018-01-30 17:15:08.5423 INFO     Schedule polling interval: 00:00:15
+2018-01-30 17:15:08.6133 DEBUG Background process 'BackgroundProcessingServer' started.
+2018-01-30 17:15:09.7004 DEBUG Background process 'ServerHeartbeat' started.
+2018-01-30 17:15:09.7434 DEBUG Background process 'ServerWatchdog' started.
+2018-01-30 17:15:09.7694 DEBUG Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-30 17:15:09.7744 DEBUG Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-30 17:15:09.8454 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 17:15:09.8614 DEBUG Removing outdated records from the 'AggregatedCounter' table...
+2018-01-30 17:15:09.8844 DEBUG Background process 'Worker #f3c6dd8e' started.
+2018-01-30 17:15:09.9144 DEBUG Background process 'Worker #22a33e21' started.
+2018-01-30 17:15:09.9324 DEBUG Background process 'Worker #af6ebf52' started.
+2018-01-30 17:15:10.0014 DEBUG Background process 'Worker #7164a84d' started.
+2018-01-30 17:15:10.0244 DEBUG Background process 'Worker #504afc78' started.
+2018-01-30 17:15:10.0444 DEBUG Background process 'Worker #80c1c820' started.
+2018-01-30 17:15:10.0824 INFO 2 servers were removed due to timeout
+2018-01-30 17:15:10.1244 DEBUG Background process 'Worker #8aac1873' started.
+2018-01-30 17:15:10.1244 DEBUG Background process 'Worker #a6a8adbb' started.
+2018-01-30 17:15:10.1604 DEBUG Background process 'Worker #152836de' started.
+2018-01-30 17:15:10.1674 DEBUG Background process 'Worker #86062c4f' started.
+2018-01-30 17:15:10.1804 DEBUG Background process 'DelayedJobScheduler' started.
+2018-01-30 17:15:10.1804 DEBUG Background process 'RecurringJobScheduler' started.
+2018-01-30 17:15:11.8995 DEBUG Removing outdated records from the 'Job' table...
+2018-01-30 17:15:14.6197 DEBUG Removing outdated records from the 'List' table...
+2018-01-30 17:15:14.7327 DEBUG Removing outdated records from the 'Set' table...
+2018-01-30 17:15:14.8617 DEBUG Removing outdated records from the 'Hash' table...
+2018-01-30 17:19:40.2239 INFO Start installing Hangfire SQL objects...
+2018-01-30 17:19:40.3749 INFO Hangfire SQL objects installed.
+2018-01-30 17:19:40.4099 INFO Starting Hangfire Server
+2018-01-30 17:19:40.4099 INFO Using job storage: 'SQL Server: .\SQLEXPRESS@HoneyConnection'
+2018-01-30 17:19:40.4099 INFO Using the following options for SQL Server job storage:
+2018-01-30 17:19:40.4099 INFO     Queue poll interval: 00:00:15.
+2018-01-30 17:19:40.4099 INFO Using the following options for Hangfire Server:
+2018-01-30 17:19:40.4099 INFO     Worker count: 10
+2018-01-30 17:19:40.4099 INFO     Listening queues: 'default'
+2018-01-30 17:19:40.4099 INFO     Shutdown timeout: 00:00:15
+2018-01-30 17:19:40.4099 INFO     Schedule polling interval: 00:00:15
+2018-01-30 17:19:40.4659 DEBUG Background process 'BackgroundProcessingServer' started.
+2018-01-30 17:19:40.7879 DEBUG Background process 'ServerHeartbeat' started.
+2018-01-30 17:19:40.7879 DEBUG Background process 'ServerWatchdog' started.
+2018-01-30 17:19:40.8359 DEBUG Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-30 17:19:40.8359 DEBUG Removing outdated records from the 'AggregatedCounter' table...
+2018-01-30 17:19:40.9009 DEBUG Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-30 17:19:40.9009 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 17:19:40.9569 DEBUG Background process 'Worker #a906a8ed' started.
+2018-01-30 17:19:40.9569 DEBUG Removing outdated records from the 'Job' table...
+2018-01-30 17:19:41.0019 DEBUG Background process 'Worker #09852b37' started.
+2018-01-30 17:19:41.0639 DEBUG Background process 'Worker #c34b51d6' started.
+2018-01-30 17:19:41.1049 DEBUG Background process 'Worker #d7a6c36c' started.
+2018-01-30 17:19:41.1179 DEBUG Removing outdated records from the 'List' table...
+2018-01-30 17:19:41.1919 DEBUG Background process 'Worker #d8a249d6' started.
+2018-01-30 17:19:41.2119 DEBUG Background process 'Worker #42ef4e38' started.
+2018-01-30 17:19:41.2479 DEBUG Removing outdated records from the 'Set' table...
+2018-01-30 17:19:41.2479 DEBUG Background process 'Worker #4e93d58e' started.
+2018-01-30 17:19:41.2919 DEBUG Background process 'Worker #20c50f9f' started.
+2018-01-30 17:19:41.3519 DEBUG Background process 'Worker #d7db9ed4' started.
+2018-01-30 17:19:41.3519 DEBUG Background process 'Worker #6fbe8dfb' started.
+2018-01-30 17:19:41.3859 DEBUG Removing outdated records from the 'Hash' table...
+2018-01-30 17:19:41.4049 DEBUG Background process 'RecurringJobScheduler' started.
+2018-01-30 17:19:41.4049 DEBUG Background process 'DelayedJobScheduler' started.
+2018-01-30 21:03:47.4080 INFO Start installing Hangfire SQL objects...
+2018-01-30 21:03:53.0403 INFO Hangfire SQL objects installed.
+2018-01-30 21:03:53.0763 INFO Starting Hangfire Server
+2018-01-30 21:03:53.0763 INFO Using job storage: 'SQL Server: .\SQLEXPRESS@HoneyConnection'
+2018-01-30 21:03:53.0763 INFO Using the following options for SQL Server job storage:
+2018-01-30 21:03:53.0763 INFO     Queue poll interval: 00:00:15.
+2018-01-30 21:03:53.0763 INFO Using the following options for Hangfire Server:
+2018-01-30 21:03:53.0763 INFO     Worker count: 10
+2018-01-30 21:03:53.0763 INFO     Listening queues: 'default'
+2018-01-30 21:03:53.0763 INFO     Shutdown timeout: 00:00:15
+2018-01-30 21:03:53.0763 INFO     Schedule polling interval: 00:00:15
+2018-01-30 21:03:53.1353 DEBUG Background process 'BackgroundProcessingServer' started.
+2018-01-30 21:03:54.2584 DEBUG Background process 'ServerHeartbeat' started.
+2018-01-30 21:03:54.3614 DEBUG Background process 'ServerWatchdog' started.
+2018-01-30 21:03:54.3974 DEBUG Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-30 21:03:54.3994 DEBUG Removing outdated records from the 'AggregatedCounter' table...
+2018-01-30 21:03:54.3994 DEBUG Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-30 21:03:54.3994 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 21:03:54.3994 DEBUG Background process 'Worker #06946737' started.
+2018-01-30 21:03:54.4304 DEBUG Background process 'Worker #bacaa991' started.
+2018-01-30 21:03:54.4304 DEBUG Background process 'Worker #1f4d88c3' started.
+2018-01-30 21:03:54.4744 DEBUG Background process 'Worker #908cca63' started.
+2018-01-30 21:03:54.5514 DEBUG Background process 'Worker #1f3535f8' started.
+2018-01-30 21:03:54.5604 INFO 2 servers were removed due to timeout
+2018-01-30 21:03:54.5604 DEBUG Background process 'Worker #43e2b56e' started.
+2018-01-30 21:03:54.5704 DEBUG Background process 'Worker #cfe83a95' started.
+2018-01-30 21:03:54.5704 DEBUG Background process 'Worker #7a2e5a1b' started.
+2018-01-30 21:03:54.5704 DEBUG Background process 'Worker #cf118e39' started.
+2018-01-30 21:03:54.5964 DEBUG Background process 'Worker #b1215d2c' started.
+2018-01-30 21:03:54.6264 DEBUG Background process 'DelayedJobScheduler' started.
+2018-01-30 21:03:54.6464 DEBUG Background process 'RecurringJobScheduler' started.
+2018-01-30 21:03:56.4375 DEBUG Removing outdated records from the 'Job' table...
+2018-01-30 21:04:00.9828 DEBUG Removing outdated records from the 'List' table...
+2018-01-30 21:04:01.2358 DEBUG Removing outdated records from the 'Set' table...
+2018-01-30 21:04:01.3328 DEBUG Removing outdated records from the 'Hash' table...
+2018-01-30 21:08:58.6968 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 21:13:58.8790 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 21:18:59.0091 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 21:23:59.1373 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 21:29:04.0307 INFO Start installing Hangfire SQL objects...
+2018-01-30 21:29:04.3108 INFO Hangfire SQL objects installed.
+2018-01-30 21:29:04.3468 INFO Starting Hangfire Server
+2018-01-30 21:29:04.3498 INFO Using job storage: 'SQL Server: .\SQLEXPRESS@HoneyConnection'
+2018-01-30 21:29:04.3498 INFO Using the following options for SQL Server job storage:
+2018-01-30 21:29:04.3498 INFO     Queue poll interval: 00:00:15.
+2018-01-30 21:29:04.3498 INFO Using the following options for Hangfire Server:
+2018-01-30 21:29:04.3498 INFO     Worker count: 10
+2018-01-30 21:29:04.3498 INFO     Listening queues: 'default'
+2018-01-30 21:29:04.3498 INFO     Shutdown timeout: 00:00:15
+2018-01-30 21:29:04.3498 INFO     Schedule polling interval: 00:00:15
+2018-01-30 21:29:04.3878 DEBUG Background process 'BackgroundProcessingServer' started.
+2018-01-30 21:29:04.6748 DEBUG Background process 'ServerHeartbeat' started.
+2018-01-30 21:29:04.6888 DEBUG Background process 'ServerWatchdog' started.
+2018-01-30 21:29:04.7308 DEBUG Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-30 21:29:04.7308 DEBUG Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-30 21:29:04.7308 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 21:29:04.7308 DEBUG Removing outdated records from the 'AggregatedCounter' table...
+2018-01-30 21:29:04.7758 DEBUG Background process 'Worker #5cb44c7a' started.
+2018-01-30 21:29:04.8078 DEBUG Background process 'Worker #7c0f5518' started.
+2018-01-30 21:29:04.8598 DEBUG Background process 'Worker #218a6cdd' started.
+2018-01-30 21:29:04.8848 DEBUG Background process 'Worker #ec545569' started.
+2018-01-30 21:29:05.0258 DEBUG Removing outdated records from the 'Job' table...
+2018-01-30 21:29:05.0648 DEBUG Background process 'Worker #be41eb14' started.
+2018-01-30 21:29:05.0648 DEBUG Background process 'Worker #cf2daf6c' started.
+2018-01-30 21:29:05.1198 DEBUG Background process 'Worker #c3d0db61' started.
+2018-01-30 21:29:05.1648 DEBUG Background process 'Worker #9be4a14a' started.
+2018-01-30 21:29:05.1988 DEBUG Removing outdated records from the 'List' table...
+2018-01-30 21:29:05.1988 DEBUG Background process 'Worker #26096bd7' started.
+2018-01-30 21:29:05.2358 DEBUG Background process 'Worker #769b0216' started.
+2018-01-30 21:29:05.2698 DEBUG Background process 'DelayedJobScheduler' started.
+2018-01-30 21:29:05.2868 DEBUG Background process 'RecurringJobScheduler' started.
+2018-01-30 21:29:05.3358 DEBUG Removing outdated records from the 'Set' table...
+2018-01-30 21:29:05.3908 DEBUG Removing outdated records from the 'Hash' table...
+2018-01-30 21:34:04.8369 INFO 1 servers were removed due to timeout
+2018-01-30 21:34:05.1150 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 21:39:05.2891 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 21:42:28.4378 DEBUG Background process 'Hangfire.SqlServer.CountersAggregator' stopped.
+2018-01-30 21:42:28.4378 DEBUG Background process 'ServerWatchdog' stopped.
+2018-01-30 21:42:28.4378 DEBUG Background process 'Hangfire.SqlServer.ExpirationManager' stopped.
+2018-01-30 21:42:28.4378 DEBUG Background process 'ServerHeartbeat' stopped.
+2018-01-30 21:42:28.4398 DEBUG Background process 'DelayedJobScheduler' stopped.
+2018-01-30 21:42:28.8588 DEBUG Background process 'Worker #218a6cdd' stopped.
+2018-01-30 21:42:28.9138 DEBUG Background process 'Worker #5cb44c7a' stopped.
+2018-01-30 21:42:28.9138 DEBUG Background process 'Worker #c3d0db61' stopped.
+2018-01-30 21:42:28.9138 DEBUG Background process 'RecurringJobScheduler' stopped.
+2018-01-30 21:42:28.9138 DEBUG Background process 'Worker #26096bd7' stopped.
+2018-01-30 21:42:28.9138 DEBUG Background process 'Worker #769b0216' stopped.
+2018-01-30 21:42:28.9138 DEBUG Background process 'Worker #9be4a14a' stopped.
+2018-01-30 21:42:28.9138 DEBUG Background process 'Worker #be41eb14' stopped.
+2018-01-30 21:42:28.9138 DEBUG Background process 'Worker #cf2daf6c' stopped.
+2018-01-30 21:42:28.9138 DEBUG Background process 'Worker #ec545569' stopped.
+2018-01-30 21:42:28.9138 DEBUG Background process 'Worker #7c0f5518' stopped.
+2018-01-30 21:42:29.0018 DEBUG Background process 'BackgroundProcessingServer' stopped.
+2018-01-30 21:42:29.0018 INFO Hangfire Server stopped.
+2018-01-30 21:42:36.0342 INFO Start installing Hangfire SQL objects...
+2018-01-30 21:42:36.4032 INFO Hangfire SQL objects installed.
+2018-01-30 21:42:36.4492 INFO Starting Hangfire Server
+2018-01-30 21:42:36.4492 INFO Using job storage: 'SQL Server: .\SQLEXPRESS@HoneyConnection'
+2018-01-30 21:42:36.4492 INFO Using the following options for SQL Server job storage:
+2018-01-30 21:42:36.4492 INFO     Queue poll interval: 00:00:15.
+2018-01-30 21:42:36.4492 INFO Using the following options for Hangfire Server:
+2018-01-30 21:42:36.4492 INFO     Worker count: 10
+2018-01-30 21:42:36.4492 INFO     Listening queues: 'default'
+2018-01-30 21:42:36.4492 INFO     Shutdown timeout: 00:00:15
+2018-01-30 21:42:36.4492 INFO     Schedule polling interval: 00:00:15
+2018-01-30 21:42:36.5542 DEBUG Background process 'BackgroundProcessingServer' started.
+2018-01-30 21:42:37.0862 DEBUG Background process 'ServerHeartbeat' started.
+2018-01-30 21:42:37.1232 DEBUG Background process 'ServerWatchdog' started.
+2018-01-30 21:42:37.1553 DEBUG Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-30 21:42:37.1763 DEBUG Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-30 21:42:37.1763 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 21:42:37.2163 DEBUG Removing outdated records from the 'AggregatedCounter' table...
+2018-01-30 21:42:37.2353 DEBUG Background process 'Worker #98fcc630' started.
+2018-01-30 21:42:37.2883 DEBUG Background process 'Worker #a63b8d98' started.
+2018-01-30 21:42:37.3753 DEBUG Background process 'Worker #aa22010b' started.
+2018-01-30 21:42:37.4573 DEBUG Background process 'Worker #ae137e34' started.
+2018-01-30 21:42:37.5063 DEBUG Background process 'Worker #791eb94d' started.
+2018-01-30 21:42:37.5063 DEBUG Removing outdated records from the 'Job' table...
+2018-01-30 21:42:37.5363 DEBUG Background process 'Worker #4e0d2af0' started.
+2018-01-30 21:42:37.5793 DEBUG Background process 'Worker #0a5563e0' started.
+2018-01-30 21:42:37.7123 DEBUG Removing outdated records from the 'List' table...
+2018-01-30 21:42:37.7373 DEBUG Background process 'Worker #b81f3140' started.
+2018-01-30 21:42:37.8843 DEBUG Background process 'Worker #dd6b75d6' started.
+2018-01-30 21:42:37.9763 DEBUG Removing outdated records from the 'Set' table...
+2018-01-30 21:42:38.0003 DEBUG Background process 'Worker #2d04512e' started.
+2018-01-30 21:42:38.0263 DEBUG Background process 'DelayedJobScheduler' started.
+2018-01-30 21:42:38.0613 DEBUG Background process 'RecurringJobScheduler' started.
+2018-01-30 21:42:38.1033 DEBUG Removing outdated records from the 'Hash' table...
+2018-01-30 21:47:37.4234 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 21:52:37.7166 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 21:57:37.8588 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 22:02:38.2550 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 22:07:38.4611 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 22:12:38.2923 DEBUG Removing outdated records from the 'AggregatedCounter' table...
+2018-01-30 22:12:38.3193 DEBUG Removing outdated records from the 'Job' table...
+2018-01-30 22:12:38.3523 DEBUG Removing outdated records from the 'List' table...
+2018-01-30 22:12:38.3873 DEBUG Removing outdated records from the 'Set' table...
+2018-01-30 22:12:38.4173 DEBUG Removing outdated records from the 'Hash' table...
+2018-01-30 22:12:38.5983 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 22:17:30.0650 DEBUG Background process 'ServerWatchdog' stopped.
+2018-01-30 22:17:30.0650 DEBUG Background process 'ServerHeartbeat' stopped.
+2018-01-30 22:17:30.0650 DEBUG Background process 'DelayedJobScheduler' stopped.
+2018-01-30 22:17:30.0910 DEBUG Background process 'Hangfire.SqlServer.CountersAggregator' stopped.
+2018-01-30 22:17:30.0910 DEBUG Background process 'Hangfire.SqlServer.ExpirationManager' stopped.
+2018-01-30 22:17:30.4080 DEBUG Background process 'Worker #98fcc630' stopped.
+2018-01-30 22:17:30.4080 DEBUG Background process 'Worker #aa22010b' stopped.
+2018-01-30 22:17:30.4730 DEBUG Background process 'Worker #0a5563e0' stopped.
+2018-01-30 22:17:30.5160 DEBUG Background process 'Worker #a63b8d98' stopped.
+2018-01-30 22:17:30.5160 DEBUG Background process 'Worker #b81f3140' stopped.
+2018-01-30 22:17:30.5220 DEBUG Background process 'Worker #791eb94d' stopped.
+2018-01-30 22:17:30.5160 DEBUG Background process 'Worker #ae137e34' stopped.
+2018-01-30 22:17:30.5160 DEBUG Background process 'Worker #4e0d2af0' stopped.
+2018-01-30 22:17:30.5160 DEBUG Background process 'Worker #2d04512e' stopped.
+2018-01-30 22:17:30.5160 DEBUG Background process 'Worker #dd6b75d6' stopped.
+2018-01-30 22:17:30.5160 DEBUG Background process 'RecurringJobScheduler' stopped.
+2018-01-30 22:17:30.5860 DEBUG Background process 'BackgroundProcessingServer' stopped.
+2018-01-30 22:17:30.5860 INFO Hangfire Server stopped.
+2018-01-30 22:17:40.9466 INFO Start installing Hangfire SQL objects...
+2018-01-30 22:17:41.5106 INFO Hangfire SQL objects installed.
+2018-01-30 22:17:41.5536 INFO Starting Hangfire Server
+2018-01-30 22:17:41.5536 INFO Using job storage: 'SQL Server: .\SQLEXPRESS@HoneyConnection'
+2018-01-30 22:17:41.5536 INFO Using the following options for SQL Server job storage:
+2018-01-30 22:17:41.5536 INFO     Queue poll interval: 00:00:15.
+2018-01-30 22:17:41.5536 INFO Using the following options for Hangfire Server:
+2018-01-30 22:17:41.5536 INFO     Worker count: 10
+2018-01-30 22:17:41.5536 INFO     Listening queues: 'default'
+2018-01-30 22:17:41.5536 INFO     Shutdown timeout: 00:00:15
+2018-01-30 22:17:41.5536 INFO     Schedule polling interval: 00:00:15
+2018-01-30 22:17:41.6746 DEBUG Background process 'BackgroundProcessingServer' started.
+2018-01-30 22:17:42.0536 DEBUG Background process 'ServerHeartbeat' started.
+2018-01-30 22:17:42.0536 DEBUG Background process 'ServerWatchdog' started.
+2018-01-30 22:17:42.1276 DEBUG Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-30 22:17:42.1657 DEBUG Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-30 22:17:42.1797 DEBUG Background process 'Worker #e97d2c57' started.
+2018-01-30 22:17:42.2167 DEBUG Removing outdated records from the 'AggregatedCounter' table...
+2018-01-30 22:17:42.2307 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 22:17:42.2597 DEBUG Background process 'Worker #5cab7484' started.
+2018-01-30 22:17:42.2967 DEBUG Background process 'Worker #1a8bb5dd' started.
+2018-01-30 22:17:42.3107 DEBUG Background process 'Worker #d0630b6b' started.
+2018-01-30 22:17:42.5077 DEBUG Background process 'Worker #996ce2e2' started.
+2018-01-30 22:17:42.5817 DEBUG Background process 'Worker #16987eaf' started.
+2018-01-30 22:17:42.6057 DEBUG Background process 'Worker #40d74678' started.
+2018-01-30 22:17:42.7257 DEBUG Background process 'Worker #4d4362e9' started.
+2018-01-30 22:17:42.7257 DEBUG Background process 'Worker #e6d5d4ba' started.
+2018-01-30 22:17:42.7607 DEBUG Removing outdated records from the 'Job' table...
+2018-01-30 22:17:42.8337 DEBUG Background process 'Worker #668d9475' started.
+2018-01-30 22:17:42.9007 DEBUG Background process 'DelayedJobScheduler' started.
+2018-01-30 22:17:42.9657 DEBUG Background process 'RecurringJobScheduler' started.
+2018-01-30 22:17:43.0987 DEBUG Removing outdated records from the 'List' table...
+2018-01-30 22:17:43.1417 DEBUG Removing outdated records from the 'Set' table...
+2018-01-30 22:17:43.2267 DEBUG Removing outdated records from the 'Hash' table...
+2018-01-30 22:22:42.5858 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 22:27:42.7816 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 22:32:43.0398 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 22:37:43.2019 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 22:42:43.3271 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 22:47:43.2653 DEBUG Removing outdated records from the 'AggregatedCounter' table...
+2018-01-30 22:47:43.3003 DEBUG Removing outdated records from the 'Job' table...
+2018-01-30 22:47:43.3373 DEBUG Removing outdated records from the 'List' table...
+2018-01-30 22:47:43.3753 DEBUG Removing outdated records from the 'Set' table...
+2018-01-30 22:47:43.4043 DEBUG Removing outdated records from the 'Hash' table...
+2018-01-30 22:47:43.7113 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 22:52:43.9225 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 22:57:44.2826 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 23:02:44.5459 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 23:07:44.7630 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 23:12:45.0622 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 23:17:43.4383 DEBUG Removing outdated records from the 'AggregatedCounter' table...
+2018-01-30 23:17:43.4653 DEBUG Removing outdated records from the 'Job' table...
+2018-01-30 23:17:43.4973 DEBUG Removing outdated records from the 'List' table...
+2018-01-30 23:17:43.5273 DEBUG Removing outdated records from the 'Set' table...
+2018-01-30 23:17:43.5553 DEBUG Removing outdated records from the 'Hash' table...
+2018-01-30 23:17:45.4384 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 23:22:45.7486 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 23:27:46.0507 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 23:32:03.3065 DEBUG Background process 'DelayedJobScheduler' stopped.
+2018-01-30 23:32:03.4635 DEBUG Background process 'ServerWatchdog' stopped.
+2018-01-30 23:32:03.4635 DEBUG Background process 'Hangfire.SqlServer.ExpirationManager' stopped.
+2018-01-30 23:32:03.4635 DEBUG Background process 'Hangfire.SqlServer.CountersAggregator' stopped.
+2018-01-30 23:32:03.4635 DEBUG Background process 'ServerHeartbeat' stopped.
+2018-01-30 23:32:03.8765 DEBUG Background process 'Worker #996ce2e2' stopped.
+2018-01-30 23:32:04.1055 DEBUG Background process 'Worker #4d4362e9' stopped.
+2018-01-30 23:32:04.1055 DEBUG Background process 'RecurringJobScheduler' stopped.
+2018-01-30 23:32:04.1055 DEBUG Background process 'Worker #e6d5d4ba' stopped.
+2018-01-30 23:32:04.1375 DEBUG Background process 'Worker #e97d2c57' stopped.
+2018-01-30 23:32:04.1375 DEBUG Background process 'Worker #668d9475' stopped.
+2018-01-30 23:32:04.1375 DEBUG Background process 'Worker #40d74678' stopped.
+2018-01-30 23:32:04.1375 DEBUG Background process 'Worker #16987eaf' stopped.
+2018-01-30 23:32:04.1495 DEBUG Background process 'Worker #1a8bb5dd' stopped.
+2018-01-30 23:32:04.1495 DEBUG Background process 'Worker #5cab7484' stopped.
+2018-01-30 23:32:04.1495 DEBUG Background process 'Worker #d0630b6b' stopped.
+2018-01-30 23:32:04.5565 DEBUG Background process 'BackgroundProcessingServer' stopped.
+2018-01-30 23:32:04.5955 INFO Hangfire Server stopped.
+2018-01-30 23:32:51.6452 INFO Start installing Hangfire SQL objects...
+2018-01-30 23:32:54.0734 INFO Hangfire SQL objects installed.
+2018-01-30 23:32:54.2024 INFO Starting Hangfire Server
+2018-01-30 23:32:54.2024 INFO Using job storage: 'SQL Server: .\SQLEXPRESS@HoneyConnection'
+2018-01-30 23:32:54.2024 INFO Using the following options for SQL Server job storage:
+2018-01-30 23:32:54.2024 INFO     Queue poll interval: 00:00:15.
+2018-01-30 23:32:54.2024 INFO Using the following options for Hangfire Server:
+2018-01-30 23:32:54.2024 INFO     Worker count: 10
+2018-01-30 23:32:54.2084 INFO     Listening queues: 'default'
+2018-01-30 23:32:54.2084 INFO     Shutdown timeout: 00:00:15
+2018-01-30 23:32:54.2084 INFO     Schedule polling interval: 00:00:15
+2018-01-30 23:32:54.6724 DEBUG Background process 'BackgroundProcessingServer' started.
+2018-01-30 23:32:56.0175 DEBUG Background process 'ServerHeartbeat' started.
+2018-01-30 23:32:56.0425 DEBUG Background process 'ServerWatchdog' started.
+2018-01-30 23:32:56.0855 DEBUG Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-30 23:32:56.1275 DEBUG Removing outdated records from the 'AggregatedCounter' table...
+2018-01-30 23:32:56.1275 DEBUG Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-30 23:32:56.1275 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 23:32:56.1445 DEBUG Background process 'Worker #4e83842b' started.
+2018-01-30 23:32:56.1585 DEBUG Background process 'Worker #cf6e4d65' started.
+2018-01-30 23:32:56.1855 DEBUG Background process 'Worker #22f7b9f3' started.
+2018-01-30 23:32:56.2645 DEBUG Background process 'Worker #0dcd22f1' started.
+2018-01-30 23:32:56.3405 DEBUG Background process 'Worker #a24c0d30' started.
+2018-01-30 23:32:56.3525 DEBUG Background process 'Worker #52dd6d6c' started.
+2018-01-30 23:32:56.3825 DEBUG Background process 'Worker #33610489' started.
+2018-01-30 23:32:56.4735 DEBUG Background process 'Worker #9ebf53c8' started.
+2018-01-30 23:32:56.5405 DEBUG Background process 'Worker #28a22a15' started.
+2018-01-30 23:32:56.5685 DEBUG Background process 'Worker #843d36f8' started.
+2018-01-30 23:32:56.7155 DEBUG Background process 'DelayedJobScheduler' started.
+2018-01-30 23:32:56.7225 DEBUG Removing outdated records from the 'Job' table...
+2018-01-30 23:32:56.7385 DEBUG Background process 'RecurringJobScheduler' started.
+2018-01-30 23:32:57.3676 DEBUG Removing outdated records from the 'List' table...
+2018-01-30 23:32:57.9916 DEBUG Removing outdated records from the 'Set' table...
+2018-01-30 23:32:58.0646 DEBUG Removing outdated records from the 'Hash' table...
+2018-01-30 23:37:56.8997 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 23:42:57.0959 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 23:49:35.1296 INFO Start installing Hangfire SQL objects...
+2018-01-30 23:49:36.0007 INFO Hangfire SQL objects installed.
+2018-01-30 23:49:36.0357 INFO Starting Hangfire Server
+2018-01-30 23:49:36.0357 INFO Using job storage: 'SQL Server: .\SQLEXPRESS@HoneyConnection'
+2018-01-30 23:49:36.0357 INFO Using the following options for SQL Server job storage:
+2018-01-30 23:49:36.0357 INFO     Queue poll interval: 00:00:15.
+2018-01-30 23:49:36.0357 INFO Using the following options for Hangfire Server:
+2018-01-30 23:49:36.0357 INFO     Worker count: 10
+2018-01-30 23:49:36.0357 INFO     Listening queues: 'default'
+2018-01-30 23:49:36.0357 INFO     Shutdown timeout: 00:00:15
+2018-01-30 23:49:36.0357 INFO     Schedule polling interval: 00:00:15
+2018-01-30 23:49:36.0757 DEBUG Background process 'BackgroundProcessingServer' started.
+2018-01-30 23:49:36.8547 DEBUG Background process 'ServerHeartbeat' started.
+2018-01-30 23:49:36.9027 DEBUG Background process 'ServerWatchdog' started.
+2018-01-30 23:49:36.9657 DEBUG Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-01-30 23:49:36.9667 DEBUG Removing outdated records from the 'AggregatedCounter' table...
+2018-01-30 23:49:37.0547 DEBUG Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-01-30 23:49:37.0547 DEBUG Aggregating records in 'Counter' table...
+2018-01-30 23:49:37.0647 DEBUG Background process 'Worker #fa1440c8' started.
+2018-01-30 23:49:37.1097 DEBUG Background process 'Worker #43e35e09' started.
+2018-01-30 23:49:37.2027 DEBUG Background process 'Worker #b9e77acd' started.
+2018-01-30 23:49:37.2677 DEBUG Background process 'Worker #15529805' started.
+2018-01-30 23:49:37.3477 DEBUG Removing outdated records from the 'Job' table...
+2018-01-30 23:49:37.3917 DEBUG Background process 'Worker #444ee4a7' started.
+2018-01-30 23:49:37.5568 DEBUG Background process 'Worker #0d6f3727' started.
+2018-01-30 23:49:37.6238 DEBUG Removing outdated records from the 'List' table...
+2018-01-30 23:49:37.7598 DEBUG Background process 'Worker #f7128778' started.
+2018-01-30 23:49:37.7638 DEBUG Background process 'Worker #56779c0a' started.
+2018-01-30 23:49:38.0478 DEBUG Removing outdated records from the 'Set' table...
+2018-01-30 23:49:38.1108 DEBUG Background process 'Worker #e91c2955' started.
+2018-01-30 23:49:38.1108 DEBUG Background process 'Worker #1e976550' started.
+2018-01-30 23:49:38.2868 DEBUG Background process 'DelayedJobScheduler' started.
+2018-01-30 23:49:38.2868 DEBUG Background process 'RecurringJobScheduler' started.
+2018-01-30 23:49:38.3208 DEBUG Removing outdated records from the 'Hash' table...

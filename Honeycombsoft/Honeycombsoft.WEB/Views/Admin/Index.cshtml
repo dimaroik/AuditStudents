@@ -1,0 +1,17 @@
+﻿
+    <link href="http://js-grid.com/css/jsgrid.min.css" rel="stylesheet" />
+    <link href="http://js-grid.com/css/jsgrid-theme.min.css" rel="stylesheet" />
+
+
+    <div id="jqGridPager"  ></div>
+    <br />
+    <div id="studyDate"></div>
+       
+
+      
+
+        @section Scripts {
+            <script src="http://js-grid.com/js/jsgrid.min.js"></script>
+            @Scripts.Render("~/Script/MyScript/JqGrid/ShowData.js")
+            @Scripts.Render("~/Script/MyScript/JqGrid/ShowDateStudy.js")  
+        }

@@ -1,0 +1,54 @@
+﻿
+
+    <div id="login" class="col-md-4">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h1>Login</h1>
+            </div>
+
+            <div class="panel-body">
+                <div ng-controller="LoginController">
+                    <form novalidate name="f1" ng-submit="Login()">
+                    
+                        <table >
+                            <tr>
+                                <td>Email : </td>
+                                <td>
+                                    <input type="text" ng-model="LoginModel.Email" name="cEmail" ng-class="Submitted?'ng-dirty':''" required autofocus class="form-control" />
+                                    <span class="error" ng-show="(f1.cEmail.$dirty || Submitted) && f1.cEmail.$error.required">Email required </span>
+                                </td>
+                            </tr>
+   
+                            <tr>
+                                <td>Password : </td>
+                                <td>
+                                    <input type="password" ng-model="LoginModel.Password" name="cPassword" ng-class="Submitted?'ng-dirty':''" required autofocus class="form-control" />
+                                    <span class="error" ng-show="(f1.cPassword.$dirty || Submitted) && f1.cPassword.$error.required">Password required </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <input type="submit" value="Login" class="btn btn-primary" />
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+            <div class="panel-footer">
+                @Html.ActionLink("Login with facebook", "LoginFacebook", "Account")
+
+            </div>
+        </div>
+    </div>
+
+
+ 
+
+
+            @section Scripts {
+
+                <script src="~/Scripts/MyScripts/angular/AngularController/LoginController.js"></script>
+                
+            }

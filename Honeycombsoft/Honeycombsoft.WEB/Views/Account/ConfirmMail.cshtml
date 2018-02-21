@@ -1,0 +1,20 @@
+﻿@model Honeycombsoft.BLL.DTO.UserDTO
+
+    <div class="col-md-4">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h1>ConfirmEmail</h1>
+            </div>
+
+            <div class="panel-body">
+                @Html.BeginForm(){
+
+                    @Html.HiddenFor(model => model.Email)
+                    
+                    <input type="submit" value="Confirm email as @Html.DisplayFor(model=>model.Email)"/>
+                }
+            </div>
+        </div>
+    </div>
+
+
